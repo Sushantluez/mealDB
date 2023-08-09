@@ -77,13 +77,7 @@ const HomePage = () => {
 
 
 
-
-
-
-
-
-
-      <div className=' bg-brown-300 py-4' >
+      <div className=' bg-brown-300 py-4 ' >
         <h1 className='text-center  text-3xl font-bold italic text-red-700 underline'>Random Meal</h1>
       </div>
       <div>
@@ -91,7 +85,7 @@ const HomePage = () => {
       </div>
 
 
-      <div className=' bg-brown-300  gap-7 p-5 items-start  msm:grid-cols-2 mmd:grid-cols-2'>
+      <div className=' bg-brown-300  gap-7 p-5 items-start '>
         <div>
           {dat.meals.map((meal) => {
             return <div key={meal.idMeal} className='grid grid-cols-3  space-y-5 shadow-2xl cursor-pointer '>

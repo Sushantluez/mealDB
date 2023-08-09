@@ -17,7 +17,7 @@ const Details = () => {
 
   return (
 
-    <div className='grid bg-brown-700 grid-cols-3 gap-7 p-5 items-start'>
+    <div className='grid bg-brown-700 grid-cols-3 gap-7 p-5 items-start msm:grid-cols-1 mmd:grid-cols-2'>
       {data.meals.map((meal) => {
         return <div key={meal.idMeal} className='space-y-5 shadow-2xl cursor-pointer'>
           <h1 className='text-2xl font-bold tracking-wider'
